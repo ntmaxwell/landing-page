@@ -48,10 +48,6 @@ a {
     margin: 0 15px 0 15px;
 }
 
-.container {
-    display: flex;
-}
-
 .quote {
     background-color: #E5E7EB;
     color: #1F2937;
@@ -59,13 +55,94 @@ a {
     font-size: 36px;
     display: flex;
     flex-direction: column;
+    font-style: italic;
 }
 
-.container, button {
+.lightblue, button {
     background-color: #3882F6;
 }
 
 .call {
+    display: flex;
     justify-content: center;
     align-items: center;
+    padding: 30px 50px 30px 50px;
+    gap: 75px;
+}
+
+.info {
+    flex-direction: column;
+}
+
+.races {
+    display: flex;
+    flex-direction: column;
+}
+
+.descriptions {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.race_imgs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.race_pics {
+    height: 150px;
+    width: 200px;
+    border-radius: 10%;
+}
+
+.information {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900px;
+    margin-bottom: 45px;
+}
+
+.author {
+    text-align: right;
+}
+
+.race_description {
+    width: 200px;
+}
+
+button {
+    padding: 10px 25px 10px 25px;
+    color: #F9FAF8;
+    border-radius: 10%;
+    font-size: 15px;
+    border: none;
+}
+
+.call_button {
+    border: 2px solid #F9FAF8;
+    height: 50px;
+}
+
+.container {
+    color: #F9FAF8;
+}
+
+.lightblue {
+    display: flex;
+    padding: 30px 50px 30px 50px;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    padding: 0;
+    margin-bottom: 0;
 }
